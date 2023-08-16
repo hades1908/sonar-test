@@ -1,8 +1,5 @@
 node {
 
-  triggers {
-        scm('*/main')
-    }
   stage('SCM') {
     checkout scm
   }
